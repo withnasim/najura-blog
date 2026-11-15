@@ -1,14 +1,14 @@
----
-layout: default
----
-<h1>Najura <span class="gold">Blog</span></h1>
-<p class="lead">Puzzle tips, game guides and news from our little studio.</p>
-<div class="posts">
-{% for post in site.posts %}
-  <a class="post-card" href="{{ post.url }}">
-    <span class="meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-    <h2>{{ post.title }}</h2>
-    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
-  </a>
-{% endfor %}
-</div>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://najura.com/blog/">
+<meta http-equiv="refresh" content="0; url=https://najura.com/blog/">
+<title>Moved — Najura</title>
+<script>location.replace("https://najura.com/blog/");</script>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#100C30;color:#F5F2FF;
+font:400 16px/1.6 Nunito,system-ui,sans-serif;text-align:center;padding:24px}a{color:#FFC93C}</style>
+</head>
+<body><div><p>This page has moved to its new home.</p><p><a href="https://najura.com/blog/">Najura Blog →</a></p></div></body>
+</html>
